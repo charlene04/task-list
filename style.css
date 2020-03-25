@@ -1,0 +1,81 @@
+body{
+    width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #5f9ea0d1;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+    padding: 0 15px 15px 15px;
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 2px #00000061;
+    
+}
+h2.header{
+    text-align: center;
+}
+
+input, button{
+    display: block;
+}
+
+li{
+    list-style: none;
+    padding: 4px 7px;
+    display: flex;
+    justify-content: space-between;
+    border:  0.6px solid #00000061;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+a{
+    color: red;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+#taskList{
+    padding-left: 10px;
+}
+
+#filter, #input{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    border-bottom: 1px solid #00000069;
+}
+
+button{
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+
+}
+#clearTask{
+    color: #fff;
+    background-color: #000;
+}
+
+#addTaskBtn{
+    color: #000;
+    background-color: #ff9800;
+}
+
+@media only screen and (max-width:800px){
+    #container{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #container{
+        width: 85%;
+    }
+}

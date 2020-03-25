@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
+</head>
+<body>
+    <div id="container">
+        <h2 class="header">Task List</h2>
+        <div>
+            <form action="#" id="addTask">
+                <input type="text" placeholder="Add task" id="input">
+                <p></p>
+                <button type="submit" id="addTaskBtn">ADD TASK</button>
+                <br>
+            </form>    
+        </div>
+        <hr>
+        <div>
+            <p>Tasks:</p>
+            <input type="text" placeholder="filter tasks" id="filter" onkeyup ="taskFilter()">
+            <ul id="taskList"></ul>
+            <button id="clearTask">CLEAR TASKS</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
